@@ -1,0 +1,93 @@
+.fill {
+    height: 75% !important;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+overflow:hidden;
+background-size: cover;
+background-position: center center;
+
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+
+  background:lightcyan;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar:hover{
+  background: -webkit-linear-gradient(45deg,paleturquoise,lightsteelblue 80%);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #007bff;
+}
+
+.ima {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+.btn {
+  text-decoration: none;
+  background: -webkit-linear-gradient(45deg,#09009f,#00ff95 80%);
+  transition: background 0.3s ease;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background: -webkit-linear-gradient(45deg,#00ff95, #09009f 80%);
+}
+.btn:focus{
+  background:red;
+}
+.myportfolio-btn{
+  text-decoration: none;
+  background: -webkit-linear-gradient(45deg,#09009f,red 90%);
+  transition: background 0.3s ease;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.myportfolio-btn:hover,
+.myportfolio-btn:focus {
+  background: -webkit-linear-gradient(45deg,skyblue,black 80%);
+}
+
+
+    

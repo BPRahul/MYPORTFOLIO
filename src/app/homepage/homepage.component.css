@@ -1,0 +1,28 @@
+.jumbotron {
+    background-size: 100%;
+    background-image: url(https://wallpaperaccess.com/full/5651990.jpg);
+    margin-top: 30px;
+    padding: 150px;
+    image-resolution: inherit;
+    text-shadow: 0 0 3px black, 0 0 10px red, 0 0 30px red;
+    border:10px solid red;
+}
+h1{
+    color: aliceblue;
+    margin-top: 30px;
+    text-align:center;
+    font-weight:bolder;
+    font-size:50px
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-size:30px
+}
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size:20px;
+    font-style:italic;
+    font-weight:bolder
+}

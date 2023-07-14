@@ -1,0 +1,36 @@
+.btn-primary{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color:green;
+}
+
+.jumbotron {
+  margin: 0 auto;
+  width: 400px; /* Set the desired width of the box */
+  height: 400px;
+  margin-top: 20vh; /* Adjust the top margin to center vertically */ 
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  text-align: justify;
+  background:lightgray;
+  border-radius: 10px; 
+  border:2px solid gray;
+}
+h2{
+  text-align: center;
+  padding-top: 5%;
+  color:brown;
+  font-size:40px;
+  text-shadow: 0 0 6px gray, 0 0 8px white, 0 0 18px white
+}
